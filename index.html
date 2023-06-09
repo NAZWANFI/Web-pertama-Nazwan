@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB Nazwan</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">NFI</h1>
+        <nav>
+            <ul>
+                <li><a href="#jasa">JASA</a></li>
+                <li><a onclick="redirWasap()">KONTAK</a></li>
+            </ul>
+        </nav>
+        <button class="button" onclick="redirInstagram()">folow saya</button>
+    </header>
+    <div class="container">
+        <diV class="intro">
+            <p class="title">Hello, Im Nazwan</p>
+            <p class="deskripsi">This is my first website</p>
+            <img src="AC201122 (292).jpg" alt="foto motor fino" class="foto-fino" />
+        </diV>
+    </div>
+    <div class="paralax">
+        <div class="tentang">
+            <p class="title">Saya Sedang Belajar Pemograman</p>
+            <p class="deskripsi">Ngoding Aja Dulu, Jagonya Belakangan </p>
+            <div class="mt-10">
+                <button class="button" onclick="redirTiktok()">Folow Tiktok Saya</button>
+            </div> 
+        </div>
+        <div class="container">
+            <div class="card" id="jasa">
+                <div class="card-item">
+                    <img src="24-hours.png" alt="icon 1" class="icon"/>
+                    <p class="card-title">Pelayanan non stop</p>
+                    <p class="card-deskripsi">Melayani masalah pada kendaran motor anda</p>
+                </div>
+                <div class="card-item">
+                    <img src="wrench.png" alt="icon 2" class="icon"/>
+                    <p class="card-title">Keahlian</p>
+                    <p class="card-deskripsi">Bisa memperbaiki, memodif & meng-upgrade motor anda</p>
+                </div>
+                <div class="card-item">
+                    <img src="rating.png" alt="icon 3" class="icon"/>
+                    <p class="card-title">Testimoni</p>
+                    <p class="card-deskripsi">Mereka senang dalam bekerja sama dengan saya</p>
+                </div>
+             </div>
+        </div>
+    </div>
+    <footer>
+        <p class="title">&copy; Nazwan FI Website 2023</p>
+    </footer>
+    <script>
+        function redirInstagram() {
+            window.location.href ="https://www.instagram.com/zwanzxyy"
+        }
+        function redirWasap() {
+            window.location.href ="https://wa.me/+6285943792403"
+        }
+        function redirTiktok() {
+            window.location.href ="https://www.tiktok.com/@wanzz710"
+        }
+    </script>
+</body>
+</html>
